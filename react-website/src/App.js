@@ -1,12 +1,20 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-     <h1>Eu</h1>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        {/* <Routes>
+          <Route path="/" exact >
+              INSERT MY REACT COMPONENT HERE
+          </Route>/>
+        </Routes> */}
+      </Router>
+    </>
   );
 }
 
-export default App;
