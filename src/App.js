@@ -8,7 +8,7 @@ import "./App.css";
  import Home from "./components/Home";
  import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
-// import ContactMe from "./components/Navbar/ContactMe";
+import ContactMe from "./components/ContactMe";
 
 export default function App() {
   return (
@@ -18,7 +18,7 @@ export default function App() {
           <Route path="/home" element={<Home/>}/>
           <Route path="/aboutme" element={<AboutMe/>}/>
           <Route path="/portfolio" element={<Portfolio/>}/>
-          {/* <Route path="/contactme" element={<ContactMe/>}/> */}
+          <Route path="/contactme" element={<ContactMe/>}/>
         </Routes>
       </Router>
   );
