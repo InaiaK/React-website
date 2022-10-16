@@ -9,6 +9,7 @@ export default function Navbar() {
       <Link to="/" className="navtitle">
         Inaia Martin
       </Link>
+      <div>
       <ul>
         <li>
           <Link to="/home">Home</Link>
@@ -23,6 +24,7 @@ export default function Navbar() {
           <Link to="/contactme">Contactme</Link>
         </li>
       </ul>
+      </div>
     </nav>
   );
 }

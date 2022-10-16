@@ -1,13 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import "./App.css";
 
 // navbar componentes links
-import Home from "./components/Navbar/Routes/Home";
-import AboutMe from "./components/Navbar/AboutMe";
-import Portfolio from "./components/Navbar/Portfolio";
-import ContactMe from "./components/Navbar/ContactMe";
-import "./App.css";
+ import Home from "./components/Home";
+// import AboutMe from "./components/Navbar/AboutMe";
+// import Portfolio from "./components/Navbar/Portfolio";
+// import ContactMe from "./components/Navbar/ContactMe";
 
 export default function App() {
   return (
@@ -15,9 +16,9 @@ export default function App() {
         <Navbar/>
         <Routes>
           <Route path="/home" element={<Home/>}/>
-          <Route path="/aboutme" element={<AboutMe/>}/>
+          {/* <Route path="/aboutme" element={<AboutMe/>}/>
           <Route path="/portfolio" element={<Portfolio/>}/>
-          <Route path="/contactme" element={<ContactMe/>}/>
+          <Route path="/contactme" element={<ContactMe/>}/> */}
         </Routes>
       </Router>
   );
