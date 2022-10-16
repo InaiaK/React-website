@@ -6,7 +6,7 @@ import "./App.css";
 
 // navbar componentes links
  import Home from "./components/Home";
-// import AboutMe from "./components/Navbar/AboutMe";
+ import AboutMe from "./components/AboutMe";
 // import Portfolio from "./components/Navbar/Portfolio";
 // import ContactMe from "./components/Navbar/ContactMe";
 
@@ -16,8 +16,8 @@ export default function App() {
         <Navbar/>
         <Routes>
           <Route path="/home" element={<Home/>}/>
-          {/* <Route path="/aboutme" element={<AboutMe/>}/>
-          <Route path="/portfolio" element={<Portfolio/>}/>
+          <Route path="/aboutme" element={<AboutMe/>}/>
+          {/* <Route path="/portfolio" element={<Portfolio/>}/>
           <Route path="/contactme" element={<ContactMe/>}/> */}
         </Routes>
       </Router>
