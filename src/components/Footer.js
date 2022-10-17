@@ -2,9 +2,10 @@ import React from "react";
 import { FaMailBulk, FaLinkedin, FaGithub } from "react-icons/fa";
 import "./Footer.css";
 
+
 export default function Footer() {
   return (
-    <div className="main-footer">
+    <Footer ><div className="main-footer">
       <div className="container">
         INAIA MARTIN
         <FaGithub></FaGithub>
@@ -37,5 +38,6 @@ export default function Footer() {
         </p>
       </div>
     </div>
+    </Footer>
   );
 }
