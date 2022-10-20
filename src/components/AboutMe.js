@@ -1,5 +1,5 @@
 import React from "react";
-import myPicture from "../images/inaia.jpeg"
+// import myPicture from "../../public/images/inaia.jpeg"
 
 export default function AboutMe() {
   return (
