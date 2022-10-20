@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 //import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
+// import "./App.css";
 
 // navbar componentes links
 import Home from "./components/Home";
@@ -14,18 +14,15 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <Router>
-      <Navbar />
+      <div> this is where an app should go </div>
+      {/* // <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aboutme" element={<AboutMe />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contactme" element={<ContactMe />} />
-        <Route path="/footer" element={<Footer />} />
+        {/* <Route path="/portfolio" element={<Portfolio />} /> */}
+        {/* <Route path="/contactme" element={<ContactMe />} /> */}
       </Routes>
-      <Footer/>
-      <Routes>
-      <Route path="/footer" element={<Footer />} />
-      </Routes>
+      {/* <Footer/> */}
     </Router>
-  );
+  )
 }
