@@ -1,11 +1,35 @@
 import React from "react";
+import Home from "./components/Home";
+import TopNavBar from "./components/TopNavBar";
+import "./components/TopNavBar.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+function App() {
+  return (
+    <> 
+    <TopNavBar/>
+
+      <div>
+        {" "}
+        this is where an app should go
+        {/* <Navbar/> */}
+       
+        <Home />
+      </div>
+    </>
+  );
+}
+
+export default App;
+
 // import Navbar from "./components/Navbar";
 //import { Link } from "react-router-dom";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import "./App.css";
 
 // navbar componentes links
-import Home from "./components/Home";
+
 // import AboutMe from "./components/AboutMe";
 // import Portfolio from "./components/Portfolio";
 // import ContactMe from "./components/ContactMe";
@@ -20,17 +44,3 @@ import Home from "./components/Home";
 //       </Routes>
 //  <Footer/>
 //     </Router> */}
-
-function App() {
-  return (
-    <>
-      <div>
-        {" "}
-        this is where an app should go
-        <Home />
-      </div>
-    </>
-  );
-}
-
-export default App;
