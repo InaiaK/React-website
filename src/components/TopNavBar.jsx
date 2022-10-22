@@ -1,6 +1,7 @@
 import React from "react";
 import {Container, Navbar,Nav} from "react-bootstrap";
-import  "./Home"
+import  "./Home";
+import "./AboutMe";
 
 
    

@@ -6,17 +6,19 @@ import "./components/TopNavBar.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
 function App() {
   return (
     <> 
-    <TopNavBar/>
+<TopNavBar/>
 
       <div>
-        {" "}
+        {" "}    
         this is where an app should go
         {/* <Navbar/> */}
-        <AboutMe/>
-        <Home />
+          <Home />
+          <AboutMe/>
+      
       </div>
     </>
   );
