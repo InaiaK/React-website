@@ -1,5 +1,5 @@
 import React from "react";
-import  '../components/assets/images/inaia.jpeg';
+//import  '../components/assets/images/inaia.jpeg';
   // HOW TO TRANSFER IMAGE 
     import "./AboutMe.css";
     import {Card} from "react-bootstrap";
