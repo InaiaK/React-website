@@ -1,8 +1,6 @@
-div{
-        margin-top: 100;
-}
 h1{
     background-color: antiquewhite;
+    margin: 100px
 
 }
 span{
@@ -10,4 +8,5 @@ span{
 }
 h2{
     background-color: gainsboro;
+    margin: 100px;
 }
