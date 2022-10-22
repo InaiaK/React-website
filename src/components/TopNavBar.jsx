@@ -1,5 +1,6 @@
 import React from "react";
 import {Container, Navbar,Nav} from "react-bootstrap";
+import  "./Home"
 
 
    
@@ -13,6 +14,8 @@ function TopNavBar() {
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#aboutme">AboutMe</Nav.Link>
+            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="#contactme">ContactMe</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

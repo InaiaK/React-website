@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./components/Home";
 import TopNavBar from "./components/TopNavBar";
+import AboutMe from "./components/AboutMe";
 import "./components/TopNavBar.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,7 +15,7 @@ function App() {
         {" "}
         this is where an app should go
         {/* <Navbar/> */}
-       
+        <AboutMe/>
         <Home />
       </div>
     </>

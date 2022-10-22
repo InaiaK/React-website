@@ -1,8 +1,13 @@
 import React from "react";
-// import myPicture from "../../public/images/inaia.jpeg"
+// //import inaia from './images/plants.jpg';
+//     {/* HOW TO TRANSFER IMAGE */}
+    import "./AboutMe.css";
 
-export default function AboutMe() {
+
+//functional component.
+ function AboutMe() {
   return (
+    <>
     <div>
       <h1> AboutMe</h1>
       <h2>
@@ -14,9 +19,12 @@ export default function AboutMe() {
         working as a Freelance to improve my skills.
       </h2>
       </div>
-    // {/* </div>
-    // <div className="inaia-picture">
-    // <img src={myPicture} className="img" alt="Inaia"/>
-    // </div> */}
+    {/* <div>
+    <img src={inaia} className="img" alt="Inaia"/>
+    </div> */}
+
+
+    </>
   );
 };
+export default AboutMe;
