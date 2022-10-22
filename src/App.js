@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./components/Home";
 import TopNavBar from "./components/TopNavBar";
 import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 import "./components/TopNavBar.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,6 +19,7 @@ function App() {
         {/* <Navbar/> */}
           <Home />
           <AboutMe/>
+          <Footer/>
       
       </div>
     </>
