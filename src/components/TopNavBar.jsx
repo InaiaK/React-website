@@ -9,14 +9,14 @@ function TopNavBar() {
   return (
     <Navbar fixed="top" className="Navbar" expand="lg" color="pink">
       <Container>
-        <Navbar.Brand href="#home">Inaia Martin</Navbar.Brand>
+        <Navbar.Brand href="home">Inaia Martin</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#aboutme">AboutMe</Nav.Link>
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#contactme">ContactMe</Nav.Link>
+            <Nav.Link href="home">Home</Nav.Link>
+            <Nav.Link href="aboutme">AboutMe</Nav.Link>
+            <Nav.Link href="portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="contactme">ContactMe</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

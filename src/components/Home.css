@@ -1,12 +1,5 @@
-h1{
-    background-color: antiquewhite;
-    margin: 100px
-
-}
-span{
-    background-color: pink;
-}
-h2{
-    background-color: gainsboro;
-    margin: 100px;
+.header{
+    background-color: rgb(57, 55, 55);
+    color: pink;
+    padding: 5%;
 }
