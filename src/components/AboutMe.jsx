@@ -1,8 +1,7 @@
 import React from "react";
-//import  '../components/assets/images/inaia.jpeg';
-  // HOW TO TRANSFER IMAGE 
-    import "./AboutMe.css";
-    import {Card} from "react-bootstrap";
+import  Inaiapicture from '../assets/images/inaia.jpeg';
+import "./AboutMe.css";
+ import {Card} from "react-bootstrap";
 
 
 //functional component.
@@ -11,7 +10,7 @@ import React from "react";
     <>
    
 <Card style={{ width: '50rem', border:"15"}}>
-      <Card.Img variant="top" src="inaia.jpeg/100px180" />
+      <Card.Img variant="top" src={Inaiapicture} />
       <Card.Body>
         <Card.Title>Inaia Martin</Card.Title>
         <Card.Text>

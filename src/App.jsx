@@ -4,8 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import  "react-bootstrap";
 
 
-// import functional components. 
-
+// imported functional components. 
 import TopNavBar from "./components/TopNavBar";
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
@@ -13,7 +12,8 @@ import Portfolio from "./components/Portfolio";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 
-//FIX PATH 
+
+//Routes working. 
 
 function App (){
     return (
@@ -63,18 +63,4 @@ export default App;
 
 
 
-// import Navbar from "./components/Navbar";
-//import { Link } from "react-router-dom";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import "./App.css";
 
-
-//       {/* // <Navbar /> */}
-//       {/* <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/aboutme" element={<AboutMe />} />
-//         <Route path="/portfolio" element={<Portfolio />} />
-//        <Route path="/contactme" element={<ContactMe />
-//       </Routes>
-//  <Footer/>
-//     </Router> */}
