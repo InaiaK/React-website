@@ -9,7 +9,7 @@ import "react-bootstrap";
   return (
     <>
    
-<Card style={{ margin: '10rem', width: '50rem', border:"15", color:"pink", backgroundColor:"black"}}>
+<Card style={{width: '50rem', border:"15", color:"pink", backgroundColor:"black"}}>
       <Card.Img style={{  width: '25rem', border:"15"}} variant="top"  src={Inaiapicture}  />
       <Card.Body>
         <Card.Title>Inaia Martin</Card.Title>

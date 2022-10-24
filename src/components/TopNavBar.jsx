@@ -1,5 +1,6 @@
 import React from "react";
 import {Container, Navbar,Nav} from "react-bootstrap";
+import "react-bootstrap";
 import "./TopNavBar.css"
 import  "./Home";
 import  "./AboutMe";
@@ -12,7 +13,7 @@ function TopNavBar() {
   return (
     <Navbar fixed="top" className="Navbar" expand="lg">
       <Container>
-        <Navbar.Brand className="brand" href="home">Inaia Martin</Navbar.Brand>
+        <Navbar.Brand  className="brand" href="home">Inaia Martin</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

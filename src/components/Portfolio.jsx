@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+import Event from "../assets/images/event2.webp";
+import Real from "../assets/images/realfake.jpg";
+import Note from "../assets/images/notetaker.jpeg";
+import Password from "../assets/images/password.jpeg";
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -6,10 +10,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Portfolio() {
     return (
       <Carousel fade>
-        <Carousel.Item>
+        <Carousel.Item className='carousel'>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=First slide&bg=373940"
+            src={Event}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -20,7 +24,7 @@ function Portfolio() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            src={Note}
             alt="Second slide"
           />
   
@@ -32,10 +36,20 @@ function Portfolio() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            src={Real}
             alt="Third slide"
           />
-  
+   <Carousel.Caption>
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Password}
+            alt="Third slide"
+          />
           <Carousel.Caption>
             <h3>Third slide label</h3>
             <p>
