@@ -1,7 +1,7 @@
 import React from "react";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "react-bootstrap";
+import  "react-bootstrap";
 
 
 // import functional components. 
@@ -9,8 +9,9 @@ import "react-bootstrap";
 import TopNavBar from "./components/TopNavBar";
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
-// import Portfolio from "./components/Portfolio";
-// import Footer from "./components/Footer";
+import Portfolio from "./components/Portfolio";
+import ContactMe from "./components/ContactMe";
+import Footer from "./components/Footer";
 
 //FIX PATH 
 
@@ -23,9 +24,12 @@ function App (){
          <Routes>
           <Route path="home" element={<Home/>} />
          <Route path="aboutme" element={<AboutMe />} /> 
-        </Routes>
+         <Route path="portfolio" element={<Portfolio />} /> 
+         <Route path="contactme" element={<ContactMe />} /> 
+          </Routes>
       </Router>
       </div>
+      <Footer/>
       </>
   );
 };
