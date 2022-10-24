@@ -1,16 +1,16 @@
 import React from "react";
 import  Inaiapicture from '../assets/images/inaia.jpeg';
 import "./AboutMe.css";
- import {Card} from "react-bootstrap";
-
+import {Card} from "react-bootstrap";
+import "react-bootstrap";
 
 //functional component.
  function AboutMe() {
   return (
     <>
    
-<Card style={{ width: '50rem', border:"15"}}>
-      <Card.Img variant="top" src={Inaiapicture} />
+<Card style={{ margin: '10rem', width: '50rem', border:"15", color:"pink", backgroundColor:"black"}}>
+      <Card.Img style={{  width: '25rem', border:"15"}} variant="top"  src={Inaiapicture}  />
       <Card.Body>
         <Card.Title>Inaia Martin</Card.Title>
         <Card.Text>
