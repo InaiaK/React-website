@@ -2,6 +2,7 @@ import React from "react";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  "react-bootstrap";
+// import Video from "../src/assets/video/background.mp4";
 
 
 // imported functional components. 
@@ -18,6 +19,7 @@ import Footer from "./components/Footer";
 function App (){
     return (
       <>
+      {/* <video src={Video} autoplay loop/> */}
       <TopNavBar/>
     <div>
       <Router>
@@ -39,26 +41,6 @@ export default App;
 
 
 
-// function App() {
-//   return (
-//     <> 
-// <TopNavBar/>
-
-//       <div>
-//         {" "}    
-//         this is where an app should go
-//         {/* <Navbar/> */}
-//           <Home />
-//           <AboutMe/>
-//           <Portfolio/>
-//           <Footer/>
-      
-//       </div>
-//     </>
-//   );
-// }
-
-// export default App;
 
 
 

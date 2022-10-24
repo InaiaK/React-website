@@ -1,11 +1,15 @@
 import React from "react";
-// CHECK TO ADD > import { Form } from "react-bootstrap";
+
+//       {/* CREATE DIV FORM 
+// ADD BACKGROUND IMG OR MP4
+//   CREATE FUNCTION FOR EMAIL.JS 
+//   CREATE FORM SPACE  */}
 
 export default function ContactMe() {
-  return (
-    <div>
-      <h1>ContactMe </h1>
-      <p>Social Media</p>
+ 
+    return (
+      <>
+      <h1>ContactMe</h1>
       <a
         href="https://github.com/InaiaK"
         className="github"
@@ -24,11 +28,9 @@ export default function ContactMe() {
         {" "}
         Linkedin{" "}
       </a>
+          </>
+        );
+      }
+      
 
-      {/* CREATE DIV FORM 
-ADD BACKGROUND IMG OR MP4
-  CREATE FUNCTION FOR EMAIL.JS 
-  CREATE FORM SPACE  */}
-    </div>
-  );
-}
+
