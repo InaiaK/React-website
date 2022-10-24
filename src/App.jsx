@@ -1,8 +1,9 @@
 import React from "react";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  "react-bootstrap";
-// import Video from "../src/assets/video/background.mp4";
+import Video from "../src/assets/video/Floor - 1662.mp4";
 
 
 // imported functional components. 
@@ -19,7 +20,7 @@ import Footer from "./components/Footer";
 function App (){
     return (
       <>
-      {/* <video src={Video} autoplay loop/> */}
+      <video className="video" src={Video} autoPlay loop />
       <TopNavBar/>
     <div>
       <Router>
