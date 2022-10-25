@@ -1,4 +1,4 @@
-.img-portfolio{
+/* .img-portfolio{
     width: 25rem;
     height: 20rem;
     margin-top: 3rem;
@@ -6,3 +6,12 @@
      display: flex;
 };
 
+@media screen and (max-width: 768px) {
+    .card-portfolio {
+      position: relative;
+      max-width: 100%;
+      max-height: auto;
+      box-shadow: none;
+      background-color: inherit;
+    }
+} */

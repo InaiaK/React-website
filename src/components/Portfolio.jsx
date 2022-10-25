@@ -1,11 +1,12 @@
 import React from 'react';
-import Event from "../assets/images/event2.webp";
-import Real from "../assets/images/realfake.jpg";
-import Note from "../assets/images/notetaker.jpeg";
-import Password from "../assets/images/password.jpeg";
+import Real from "../assets/images/realfakeeb.gif";
+import Note from "../assets/images/note.gif";
+import Password from "../assets/images/password.gif";
+import Coming from "../assets/images/coming.gif";
 import "./Portfolio.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card, CardGroup } from "react-bootstrap";
+import { Card, CardGroup, } from "react-bootstrap";
+
 
 
 function Portfolio() {
@@ -13,40 +14,49 @@ function Portfolio() {
       <CardGroup className='card-portfolio'>
       {/* CARD 01 */}
         <Card>
-          <Card.Img  className='img-portfolio' variant="top" src={Event}/>
+          <Card.Img  className='img-portfolio' variant="top" src={Real}/>
           <Card.Body>
-            <Card.Title>Project - EventeListner</Card.Title>
+            <Card.Title><a
+          href="https://real-fake-store.herokuapp.com/"
+          className="event-link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}RealFake Store{" "}
+        </a> </Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural lead-in
-              to additional content. This content is a little bit longer.
+            A place for intergalactic travelers to find the products they need to keep sane on their long journeys through space.
+            Whether they want something unique or something real fake, the real fake store has it all. Our application is web responsive, easily visible on a mobile device or from your spaceship’s console.
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-          <a 
-            href="https://inaiak.github.io/eventListener/" 
-            className='event'
-            target="_blank"
-          rel="noreferrer"
-          >
 
-          </a>
-            <small className="text-muted">HTML CSS JAVASCRIPT </small>
+          <small className="text-muted">Technologies: MongoDB, Express.js,Node.js, React.js, Heroku & GraphQL 
+              
+            </small>
           </Card.Footer>
         </Card>
 
 {/* CARD 02  */}
 
         <Card>
-          <Card.Img className='img-portfolio' variant="top" src={Real} />
+          <Card.Img className='img-portfolio' variant="top" src={Password} />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title><a
+          href="https://real-fake-store.herokuapp.com/"
+          className="event-link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}Password Generator{" "}
+        </a></Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{' '}
+            An application that enables employees to generate random passwords based on criteria that they’ve selected. 
+            This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes..{' '}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted">Technologies:HTML, CSS, JavaScript</small>
           </Card.Footer>
         </Card>
 
@@ -54,36 +64,36 @@ function Portfolio() {
         <Card>
           <Card.Img className='img-portfolio' variant="top" src={Note} />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title><a
+          href="https://tranquil-dawn-45157.herokuapp.com/"
+          className="event-link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}Note Taker {" "}
+        </a></Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural lead-in
-              to additional content. This card has even longer content than the
-              first to show that equal height action.
+            Note Taker that can be used to write and save notes.
+            This application will use an Express.js back end and will save and retrieve note data from a JSON file.
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted">Technologies:Bootstrap, JavaScript, Express.js</small>
           </Card.Footer>
         </Card>
         {/* CARD 04  */}
 
         <Card>
-          <Card.Img className='img-portfolio' variant="top" src={Password} />
+          <Card.Img className='img-portfolio' variant="top" src={Coming} />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Future Project</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural lead-in
-              to additional content. This card has even longer content than the
-              first to show that equal height action.
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted">Technologies</small>
           </Card.Footer>
-        </Card>
-
-        {/* CARD 04  */}
-        
+        </Card>       
       </CardGroup>
     );
   }
