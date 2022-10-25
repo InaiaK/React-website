@@ -5,12 +5,13 @@ import Password from "../assets/images/password.gif";
 import Coming from "../assets/images/coming.gif";
 import "./Portfolio.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card, CardGroup, } from "react-bootstrap";
+import { Card, CardGroup} from "react-bootstrap";
 
 
 
 function Portfolio() {
      return (
+      
       <CardGroup className='card-portfolio'>
       {/* CARD 01 */}
         <Card>
@@ -43,7 +44,7 @@ function Portfolio() {
           <Card.Img className='img-portfolio' variant="top" src={Password} />
           <Card.Body>
             <Card.Title><a
-          href="https://real-fake-store.herokuapp.com/"
+          href="https://inaiak.github.io/Password-generator/"
           className="event-link"
           target="_blank"
           rel="noreferrer"

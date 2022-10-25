@@ -3,6 +3,7 @@ import "./Home.css";
 
 
 //functional component.
+
  function Home() {
   return (
         <div className="header">
@@ -13,3 +14,5 @@ import "./Home.css";
 }
 
 export default Home;
+
+
