@@ -7,7 +7,7 @@ import "react-bootstrap";
 import Video from "../assets/video/background2.mp4";
 
 //functional component.
-function AboutMe() {
+function About() {
   return (
     <>
       <div className="backgroundvideo">
@@ -57,4 +57,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default About;
