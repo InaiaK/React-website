@@ -1,8 +1,9 @@
 .header{
     color: pink;
-    padding: 5%;
+    background-color: black;
+    padding: 25%;
     margin: 0;
-    height: 100vh;
+    height: 90vh;
    align-items: center;
 }
 h1{
