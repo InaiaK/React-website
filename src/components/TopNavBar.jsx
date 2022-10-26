@@ -22,7 +22,6 @@ function TopNavBar() {
             <Link to={"about"}>About</Link>
             {/* <Nav.Link href="aboutme">AboutMe</Nav.Link> */}
             <Nav.Link href="portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="contactme">ContactMe</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
