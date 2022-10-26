@@ -11,12 +11,12 @@ import { Card, CardGroup} from "react-bootstrap";
 
 function Portfolio() {
      return (
-      
+ 
       <CardGroup className='card-portfolio'>
       {/* CARD 01 */}
         <Card>
           <Card.Img  className='img-portfolio' variant="top" src={Real}/>
-          <Card.Body>
+          <Card.Body className='card-portfolio'>
             <Card.Title><a
           href="https://real-fake-store.herokuapp.com/"
           className="event-link"
@@ -42,7 +42,7 @@ function Portfolio() {
 
         <Card>
           <Card.Img className='img-portfolio' variant="top" src={Password} />
-          <Card.Body>
+          <Card.Body className='card-portfolio'>
             <Card.Title><a
           href="https://inaiak.github.io/Password-generator/"
           className="event-link"
@@ -53,7 +53,7 @@ function Portfolio() {
         </a></Card.Title>
             <Card.Text>
             An application that enables employees to generate random passwords based on criteria that they’ve selected. 
-            This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes..{' '}
+            This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.{' '}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -64,7 +64,7 @@ function Portfolio() {
         {/* CARD 03 */}
         <Card>
           <Card.Img className='img-portfolio' variant="top" src={Note} />
-          <Card.Body>
+          <Card.Body className='card-portfolio'>
             <Card.Title><a
           href="https://tranquil-dawn-45157.herokuapp.com/"
           className="event-link"
@@ -75,8 +75,7 @@ function Portfolio() {
         </a></Card.Title>
             <Card.Text>
             Note Taker that can be used to write and save notes.
-            This application will use an Express.js back end and will save and retrieve note data from a JSON file.
-            </Card.Text>
+                       </Card.Text>
           </Card.Body>
           <Card.Footer>
             <small className="text-muted">Technologies:Bootstrap, JavaScript, Express.js</small>

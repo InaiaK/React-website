@@ -11,7 +11,7 @@ import  "./Portfolio";
    
 function TopNavBar() {
   return (
-    <Navbar fixed="top" className="Navbar" expand="lg">
+    <Navbar fixed="top" className="Navbar" expand="lg" >
       <Container>
         <Navbar.Brand  className="brand" href="home">Inaia Martin</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

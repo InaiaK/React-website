@@ -4,14 +4,18 @@ import Qrcode from '../assets/images/qrcode.png';
 import "./AboutMe.css";
 import {Card} from "react-bootstrap";
 import "react-bootstrap";
+import Video from "../assets/video/background2.mp4";
 
 //functional component.
  function AboutMe() {
   return (
     <>
+    <div className="backgroundvideo">
+     <video className="video" src={Video} autoPlay loop muted
+        style={{ position:"absolute", objectFit:"cover", zIndex:"-1"}}/> 
    
-<Card>
-      <Card.Img style={{  width: '25rem', border:"15"}} variant="top"  src={Inaiapicture}  />
+<Card className="Cardaboutme">
+      <Card.Img  style={{  width: '15rem', border:"15"}} src={Inaiapicture}  />
       <a
           href="https://docs.google.com/document/d/1yOadZ6xjOhjUliVfG67TEzYHTqOhzdbc/edit#heading=h.gjdgxs"
           className="resume"
@@ -20,7 +24,7 @@ import "react-bootstrap";
         >
           {" "}Resume{" "}
         </a> 
-        <Card.Img style={{  width: '25rem', border:"15"}} variant="top"  src={Qrcode}  />
+        <Card.Img style={{  width: '15rem', border:"15"}} variant="top"  src={Qrcode}  />
       <Card.Body>
         <Card.Title>Inaia Martin</Card.Title>
         <Card.Text>
@@ -30,13 +34,10 @@ import "react-bootstrap";
         Spanish), and hard working (I completed DU’s bootcamp while working full
         time), and I’m excited to learn and grow in this new career. Currently
         working as a Freelance to improve my skills. 
-        
         </Card.Text>
-       
-       
       </Card.Body>
     </Card>
-   
+   </div>
     
     </>   
   );
