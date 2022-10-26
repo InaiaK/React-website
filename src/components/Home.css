@@ -1,12 +1,15 @@
 .header{
-    color: pink;
-    background-color: black;
-    padding: 25%;
-    margin: 0;
-    height: 90vh;
-   align-items: center;
+       height: 90vh;
 }
+
 h1{
-       font-size: 50px;
-     
+       font-size: 100px;
+       margin: 0%;
+       padding-top: 16%;
+       padding-inline-start: 34%;
+}
+h2{
+       font-size: 50px;   
+       padding-inline-start: 37%;
+       font-style: italic;
 }
