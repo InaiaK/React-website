@@ -8,7 +8,7 @@ import "react-bootstrap";
 // imported functional components.
 import TopNavBar from "./components/TopNavBar";
 import Home from "./components/Home";
-import AboutMe from "./components/AboutMe";
+import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
@@ -24,7 +24,7 @@ function App() {
           <TopNavBar />
           <Routes>
             <Route path="home" element={<Home />} />
-            <Route path="aboutme" element={<AboutMe />} />
+            <Route path="about" element={<About />} />
             <Route path="portfolio" element={<Portfolio />} />
             <Route path="contactme" element={<ContactMe />} />
           </Routes>

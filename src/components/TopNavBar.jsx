@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "react-bootstrap";
 import "./TopNavBar.css";
 import "./Home";
-import "./AboutMe";
+import "./About";
 import "./ContactMe";
 import "./Portfolio";
 
@@ -19,7 +19,7 @@ function TopNavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="home">Home</Nav.Link>
-            <Link to={"aboutme"}>Aboutme</Link>
+            <Link to={"about"}>About</Link>
             {/* <Nav.Link href="aboutme">AboutMe</Nav.Link> */}
             <Nav.Link href="portfolio">Portfolio</Nav.Link>
             <Nav.Link href="contactme">ContactMe</Nav.Link>
