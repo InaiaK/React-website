@@ -1,8 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "react-bootstrap";
+import "./App.css";
 // import Video from "../src/assets/video/Floor - 1662.mp4";
 
 // imported functional components.

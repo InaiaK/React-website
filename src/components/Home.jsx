@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+// Assets
 import Video from "../assets/video/background2.mp4";
 
 //functional component.
