@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "react-bootstrap";
 import "./TopNavBar.css";
+// Componentes
 import "./Home";
 import "./About";
 import "./Portfolio";
