@@ -41,7 +41,7 @@ function About() {
             src={Qrcode}
           />
            <FaGithub  className="container"></FaGithub>
-    //   <a
+       <a
         href="https://github.com/InaiaK"
         className="github"
         target="_blank"
