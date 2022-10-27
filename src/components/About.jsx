@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import { FaMailBulk, FaLinkedin, FaGithub } from "react-icons/fa";
 import "./About.css";
 //Assets
 import Inaiapicture from "../assets/images/inaia.jpeg";
@@ -39,6 +40,27 @@ function About() {
             variant="top"
             src={Qrcode}
           />
+           <FaGithub  className="container"></FaGithub>
+    //   <a
+        href="https://github.com/InaiaK"
+        className="github"
+        target="_blank"
+        rel="noreferrer"
+      >
+        {" "}
+        GitHub{" "}
+      </a>
+      <FaLinkedin></FaLinkedin>
+      <a
+        href="https://www.linkedin.com/in/inaia-martin/"
+        className="linkedin"
+        target="_blank"
+        rel="noreferrer"
+      >
+        {" "}
+        Linkedin{" "}
+      </a>
+      <FaMailBulk></FaMailBulk> inaiakenia15@gmail.com
           <Card.Body>
             <Card.Title>Inaia Martin</Card.Title>
             <Card.Text>
