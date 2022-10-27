@@ -5,7 +5,6 @@ import "react-bootstrap";
 import "./TopNavBar.css";
 import "./Home";
 import "./About";
-import "./ContactMe";
 import "./Portfolio";
 
 function TopNavBar() {

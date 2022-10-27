@@ -1,9 +1,9 @@
 import React from "react";
+import { Card } from "react-bootstrap";
+import "./About.css";
+//Assets
 import Inaiapicture from "../assets/images/inaia.jpeg";
 import Qrcode from "../assets/images/qrcode.png";
-import "./About.css";
-import { Card } from "react-bootstrap";
-import "react-bootstrap";
 import Video from "../assets/video/background2.mp4";
 
 //functional component.

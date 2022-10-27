@@ -10,11 +10,9 @@ import TopNavBar from "./components/TopNavBar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
-import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 
 //Routes working.
-
 function App() {
   return (
     <>
