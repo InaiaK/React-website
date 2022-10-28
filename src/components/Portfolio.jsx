@@ -38,7 +38,13 @@ const renderCard = (card,index)  => {
         <Card.Text>
     {card.description}
         </Card.Text>
-        <Button variant="primary">{card.deployed}</Button>
+        <Button >
+          <a href={card.deployed}
+          target="_blank"
+          rel="noreferrer noopener">
+            Visit {card.title}
+          </a>
+          </Button>
       </Card.Body>
     </Card>
   );
