@@ -1,15 +1,5 @@
-/* .main-footer{
-    color: black;
-   
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-    
-    padding: 20px;
-   
-  } */
- .container{
+ .footer-container{
   color: pink;
-  place-items: left; 
-  place-items: fix;
+  background-color: black;
+padding-left: 35%; 
  }
