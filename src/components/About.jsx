@@ -11,16 +11,15 @@ import Video from "../assets/video/background2.mp4";
 function About() {
   return (
     <>
-      <div className="backgroundvideo">
-        <video
-          className="video"
+      <div >
+        <video className="backgroundvideo"
           src={Video}
           autoPlay
           loop
           muted
           style={{ position: "absolute", objectFit: "cover", zIndex: "-1" }}
         />
- <Card.Body>
+ <Card.Body className="cardbody">
             <Card.Title>Inaia Martin</Card.Title>
             <Card.Text>
               I am a dedicated professional looking for a front end developer
@@ -34,8 +33,7 @@ function About() {
           </Card.Body>
         <Card className="Cardaboutme">
           <Card.Img
-            style={{ width: "15rem", border: "15" }}
-            src={Inaiapicture}
+           src={Inaiapicture}
           />
           <a
             href="https://docs.google.com/document/d/1yOadZ6xjOhjUliVfG67TEzYHTqOhzdbc/edit#heading=h.gjdgxs"

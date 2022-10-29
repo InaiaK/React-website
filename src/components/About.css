@@ -1,10 +1,9 @@
-.Inaia{
-    border-radius: 50px;
-
+.backgroundvideo {
+    height: 100vh;
 }
-.Cardaboutme{
-    height: 50vh;   
+
+.cardbody{
+    height: 40%;   
     margin: 0%;
-       padding-top: 10%;
-       padding-inline-start: 34%;
+    color: pink;
 }
