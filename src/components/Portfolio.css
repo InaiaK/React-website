@@ -1,24 +1,11 @@
-/* .img-portfolio{
-    width: 25rem;
-    height: 20rem;
-    margin-top: 3rem;
-    padding: 3rem;
-     display: flex;
-};
+.grid{
+  display: grid;
+ 
+grid-template-columns: repeat(4, 1fr);
+ 
+grid-auto-rows: auto;
+ 
+grid-gap: 1rem;
 
-@media screen and (max-width: 768px) {
-    .card-portfolio {
-      position: relative;
-      max-width: 100%;
-      max-height: auto;
-      box-shadow: none;
-      background-color: inherit;
-    }
-} */
-
-.card-portfolio{
-  padding-top: 10%;
-  padding-bottom: 9%;
-  background-color: black;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
-
