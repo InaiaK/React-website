@@ -1,9 +1,28 @@
 .backgroundvideo {
-    height: 100vh;
+    height: 120vh;
 }
 
-.cardbody{
-    height: 40%;   
-    margin: 0%;
+.body{
     color: pink;
+    align-items: left;
+}
+h1{
+
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img-about-me{
+    border-radius: 10rem;
+    width: 25rem;
+    margin-left: 50rem;
+
+}
+
+.img-qrcode{
+     width: 15rem;
+}
+
+p{
+    margin: 1rem;
+    background-color: black;
 }

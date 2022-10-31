@@ -3,6 +3,7 @@ import "./Home.css";
 // Assets
 import Video from "../assets/video/background2.mp4";
 
+
 //functional component.
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       />
       <h1 className="h1">Inaia Martin</h1>
       <h2 className="h2"> Software Engineer</h2>
+      
     </div>
   );
 }
