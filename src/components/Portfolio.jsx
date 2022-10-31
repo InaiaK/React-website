@@ -46,16 +46,17 @@ const Portfolio = () => {
 
   const renderCard = (card, index) => {
     return (
-      <Card style={{ width: "20rem" }} key={index} className="card.box">
+      <Card key={index} className="cardbox">
         <Card.Img variant="top" src={card.img} alt={card.altText} />
-        <Card.Body>
-          <Card.Title>{card.title}</Card.Title>
-          <Card.Text>{card.description}</Card.Text>
-          <Button>
-            <a href={card.deployed} target="_blank" rel="noreferrer noopener">
-              Visit {card.title}
+        <Card.Body className="cardbody">
+            <Button className="buttonportfolio">
+            <a className="aportfolio" href={card.deployed} target="_blank" rel="noreferrer noopener">
+               {card.title}
             </a>
           </Button>
+          {/* <Card.Title>{card.title}</Card.Title> */}
+          <Card.Text>{card.description}</Card.Text>
+        
         </Card.Body>
       </Card>
     );
