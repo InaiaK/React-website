@@ -46,9 +46,9 @@ const Portfolio = () => {
 
   const renderCard = (card, index) => {
     return (
-      <Card style={{ width: "20rem" }} key={index} className="card.box">
+      <Card key={index} className="cardbox">
         <Card.Img variant="top" src={card.img} alt={card.altText} />
-        <Card.Body>
+        <Card.Body className="cardbody">
           <Card.Title>{card.title}</Card.Title>
           <Card.Text>{card.description}</Card.Text>
           <Button>

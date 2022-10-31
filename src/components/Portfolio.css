@@ -1,11 +1,17 @@
-.grid{
+.grid {
   display: grid;
- 
-grid-template-columns: repeat(4, 1fr);
- 
-grid-auto-rows: auto;
- 
-grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  background-color: black;
+}
 
-grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+.cardbox{
+  padding: 2rem;
+  background-color: black;
+}
+
+.cardbody{
+  color:pink;
 }
