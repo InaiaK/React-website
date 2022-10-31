@@ -4,14 +4,28 @@
   grid-auto-rows: auto;
   grid-gap: 1rem;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  background-color: black;
+  background-color: black;    
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .cardbox{
+
   padding: 2rem;
   background-color: black;
-}
+  border-style: double;
+  border-color: pink;
+  border-width: 1rem;
+ }
 
 .cardbody{
-  color:pink;
+  color:whitesmoke;
+
+}
+
+.button,
+a{
+background-color: pink;
+color: black;
+border-radius: 1rem;
 }

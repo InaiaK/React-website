@@ -51,7 +51,7 @@ const Portfolio = () => {
         <Card.Body className="cardbody">
           <Card.Title>{card.title}</Card.Title>
           <Card.Text>{card.description}</Card.Text>
-          <Button>
+          <Button className="button">
             <a href={card.deployed} target="_blank" rel="noreferrer noopener">
               Visit {card.title}
             </a>
