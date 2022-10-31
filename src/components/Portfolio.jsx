@@ -49,13 +49,14 @@ const Portfolio = () => {
       <Card key={index} className="cardbox">
         <Card.Img variant="top" src={card.img} alt={card.altText} />
         <Card.Body className="cardbody">
-          <Card.Title>{card.title}</Card.Title>
-          <Card.Text>{card.description}</Card.Text>
-          <Button className="button">
-            <a href={card.deployed} target="_blank" rel="noreferrer noopener">
-              Visit {card.title}
+            <Button className="buttonportfolio">
+            <a className="aportfolio" href={card.deployed} target="_blank" rel="noreferrer noopener">
+               {card.title}
             </a>
           </Button>
+          {/* <Card.Title>{card.title}</Card.Title> */}
+          <Card.Text>{card.description}</Card.Text>
+        
         </Card.Body>
       </Card>
     );

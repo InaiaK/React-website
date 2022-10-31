@@ -10,22 +10,28 @@
 }
 
 .cardbox{
-
   padding: 2rem;
   background-color: black;
   border-style: double;
   border-color: pink;
   border-width: 1rem;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.8)
  }
 
 .cardbody{
-  color:whitesmoke;
+color:whitesmoke;
+padding-inline-start: 1rem;
+}
+
+.buttonportfolio,
+.aportfolio{
+transition: background-color 0.5s;
+color: black;
+font-style:oblique;
 
 }
 
-.button,
-a{
-background-color: pink;
-color: black;
-border-radius: 1rem;
+.buttonportfolio,
+.aportfolio:hover {
+  background-color: rgba(243, 232, 232, 0.8)
 }
