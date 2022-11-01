@@ -1,7 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "react-bootstrap";
-
 
 // imported functional components.
 import TopNavBar from "./components/TopNavBar";
@@ -10,12 +8,12 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 
-//Routes working.
+// Routes working.
 function App() {
   return (
     <>
       <div>
-        <Router>    
+        <Router>
           <TopNavBar />
           <Routes>
             <Route path="home" element={<Home />} />
