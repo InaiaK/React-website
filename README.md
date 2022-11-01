@@ -10,10 +10,10 @@ Using components below:
 - Footer
 
 
-# Video
+# App (walkthrough)
 
 
-# Deploy link
+# Deploy Link
 
 
 # Technologies 
