@@ -18,20 +18,20 @@
   box-shadow: 0 15px 25px rgba(129, 124, 124, 0.8)
  }
 
-.cardbody{
+.card-body{
 color:whitesmoke;
 padding-inline-start: 1rem;
 }
 
-.buttonportfolio,
-.aportfolio{
+.bttn-portfolio,
+.a-portfolio{
 transition: background-color 0.5s;
 color: black;
 font-style:oblique;
 
 }
 
-.buttonportfolio,
-.aportfolio:hover {
+.bttn-portfolio,
+.a-portfolio:hover {
   background-color: rgba(243, 232, 232, 0.8)
 }

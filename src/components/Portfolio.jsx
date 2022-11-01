@@ -48,10 +48,10 @@ const Portfolio = () => {
     return (
       <Card key={`portfolio-card-${index}`} className="card-box">
         <Card.Img  src={img} alt={altText} />
-        <Card.Body className="cardbody">
-          <Button className="buttonportfolio">
+        <Card.Body className="card-body">
+          <Button className="bttn-portfolio">
             <a
-              className="aportfolio"
+              className="a-portfolio"
               href={deployed}
               target="_blank"
               rel="noreferrer noopener"
