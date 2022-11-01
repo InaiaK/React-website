@@ -1,25 +1,18 @@
 import React from "react";
 import { FaMailBulk, FaLinkedin, FaGithub, FaSave } from "react-icons/fa";
 import "./About.css";
-//Assets
-import Inaiapicture from "../assets/images/inaia.jpeg";
-import Qrcode from "../assets/images/qrcode.png";
-import Video from "../assets/video/background2.mp4";
+// Assets
+import INAIA_IMG from "../assets/images/inaia.jpeg";
+import QR_CODE from "../assets/images/qrcode.png";
+import VIDEO from "../assets/video/background2.mp4";
 
-//functional component.
+// Functional component.
 function About() {
   return (
     <>
       <div>
-        <video
-          className="backgroundvideo"
-          src={Video}
-          autoPlay
-          loop
-          muted
-          style={{ position: "absolute", objectFit: "cover", zIndex: "-1" }}
-        />
-        <section className="body">
+        <video className="video" src={VIDEO} autoPlay loop muted />
+        <section className="about-body">
           <h1>Inaia Martin</h1>
           <p>
             I am a dedicated professional looking for a front end developer role
@@ -29,8 +22,12 @@ function About() {
             working full time), and I’m excited to learn and grow in this new
             career. Currently working as a Freelance to improve my skills.
           </p>
-          <img className="img-qrcode" src={Qrcode} alt="Qrcode" />
-          <img className="img-about-me" src={Inaiapicture} alt="Profile" />
+          <img
+            className="img-qrcode"
+            src={QR_CODE}
+            alt="QR_CODE for my resume"
+          />
+          <img className="img-about-me" src={INAIA_IMG} alt="Profile" />
 
           <ul>
             {" "}
