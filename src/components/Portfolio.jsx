@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Portfolio.css";
-//Assets
+// Assets
 import Real from "../assets/images/realfakeeb.gif";
 import Note from "../assets/images/note.gif";
 import Password from "../assets/images/password.gif";
@@ -49,14 +49,17 @@ const Portfolio = () => {
       <Card key={index} className="cardbox">
         <Card.Img variant="top" src={card.img} alt={card.altText} />
         <Card.Body className="cardbody">
-            <Button className="buttonportfolio">
-            <a className="aportfolio" href={card.deployed} target="_blank" rel="noreferrer noopener">
-               {card.title}
+          <Button className="buttonportfolio">
+            <a
+              className="aportfolio"
+              href={card.deployed}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              {card.title}
             </a>
           </Button>
-          {/* <Card.Title>{card.title}</Card.Title> */}
           <Card.Text>{card.description}</Card.Text>
-        
         </Card.Body>
       </Card>
     );
