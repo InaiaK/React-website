@@ -1,9 +1,16 @@
-.header,
 .video {
   height: 100vh;
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
 }
 
-.h1 {
+.header{
+  height: 100vh;
+
+}
+
+.home-title{
   margin: 0%;
   padding-top: 16%;
   padding-inline-start: 40%;
@@ -11,8 +18,8 @@
 
 }
 
-.h2 {
-  padding-inline-start: 37%;
+.home-subtitle {
+  padding-inline-start: 40%;
   font-style: italic;
   color: pink;
   font-size: 10px;
