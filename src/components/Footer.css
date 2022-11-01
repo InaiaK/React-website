@@ -1,5 +1,9 @@
  .footer-container{
   color: pink;
   background-color: black;
-padding-left: 35%; 
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
  }
