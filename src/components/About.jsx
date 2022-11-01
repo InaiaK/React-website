@@ -11,15 +11,8 @@ function About() {
   return (
     <>
       <div>
-        <video
-          className="backgroundvideo"
-          src={VIDEO}
-          autoPlay
-          loop
-          muted
-          style={{ position: "absolute", objectFit: "cover", zIndex: "-1" }}
-        />
-        <section className="body">
+        <video className="video" src={VIDEO} autoPlay loop muted />
+        <section className="about-body">
           <h1>Inaia Martin</h1>
           <p>
             I am a dedicated professional looking for a front end developer role
@@ -29,7 +22,11 @@ function About() {
             working full time), and I’m excited to learn and grow in this new
             career. Currently working as a Freelance to improve my skills.
           </p>
-          <img className="img-qrcode" src={QR_CODE} alt="QR_CODE for my resume" />
+          <img
+            className="img-qrcode"
+            src={QR_CODE}
+            alt="QR_CODE for my resume"
+          />
           <img className="img-about-me" src={INAIA_IMG} alt="Profile" />
 
           <ul>
