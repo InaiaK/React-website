@@ -11,6 +11,8 @@
 
 .card-box{
   padding: 2rem;
+  height: 100%;
+  width: 100%;
   background-color: black;
   border-style: double;
   border-color: pink;
@@ -19,19 +21,28 @@
  }
 
 .card-body{
-color:whitesmoke;
-padding-inline-start: 1rem;
+color:pink;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.bttn-portfolio,
+.bttn-portfolio{
+transition: background-color 0.4s;
+margin-left: 5%;
+margin-bottom: 5%;
+}
+
+.bttn-portfolio:hover {
+  background-color: whitesmoke;
+}
+
 .a-portfolio{
-transition: background-color 0.5s;
-color: black;
-font-style:oblique;
-
+  color: pink;
 }
 
-.bttn-portfolio,
-.a-portfolio:hover {
-  background-color: rgba(243, 232, 232, 0.8)
-}
+@media (max-width: 3500px){
+
+  .grid{
+   padding: 9%;
+  }
+  
+  }
