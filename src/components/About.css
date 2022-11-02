@@ -1,10 +1,15 @@
+h1 {
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ margin: 5%;
+ padding: 2%;
+
+}
+
 .about-body {
   color: pink;
-  align-items: left;
+    
 }
-h1 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
+
 p {
   margin: 1rem;
   background-color: black;
