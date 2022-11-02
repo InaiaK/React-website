@@ -11,7 +11,7 @@ function TopNavBar() {
   return (
     <Navbar className="navbar" expand="lg">
       <LinkContainer to="home">
-        <Navbar.Brand>Inaia Martin</Navbar.Brand>
+        <Navbar.Brand className="brand"> Inaia Martin</Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
