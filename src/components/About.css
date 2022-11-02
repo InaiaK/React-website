@@ -1,27 +1,43 @@
 h1 {
  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- margin: 5%;
- padding: 2%;
-
-}
-
-.about-body {
-  color: pink;
-    
+color: pink;
 }
 
 p {
-  margin: 1rem;
-  background-color: black;
+
+  color: pink;
+}
+.about-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
+ul{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
 .img-about-me {
-  border-radius: 10rem;
-  width: 25rem;
-  margin-left: 50rem;
+  width: 20rem;
+
 }
 
 .img-qrcode {
-  width: 15rem;
+  width: 10rem;
 }
 
+.contact{
+  color: whitesmoke;
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 20px; 
+  border: 1px solid black; 
+  width: 50%; 
+}

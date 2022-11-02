@@ -22,58 +22,58 @@ function About() {
             working full time), and I’m excited to learn and grow in this new
             career. Currently working as a Freelance to improve my skills.
           </p>
+          <img className="img-about-me" src={INAIA_IMG} alt="Profile" />
           <img
             className="img-qrcode"
             src={QR_CODE}
             alt="QR_CODE for my resume"
           />
-          <img className="img-about-me" src={INAIA_IMG} alt="Profile" />
-
-          <ul>
-            {" "}
-            Contact
-            <li>
-              {" "}
-              <FaSave></FaSave>
-              <a
-                href="https://docs.google.com/document/d/1yOadZ6xjOhjUliVfG67TEzYHTqOhzdbc/edit#heading=h.gjdgxs"
-                className="resume"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Resume
-              </a>
-            </li>
-            <li>
-              {" "}
-              <FaGithub></FaGithub>
-              <a
-                href="https://github.com/InaiaK"
-                className="github"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                GitHub{" "}
-              </a>
-            </li>
-            <li>
-              <FaLinkedin></FaLinkedin>
-              <a
-                href="https://www.linkedin.com/in/inaia-martin/"
-                className="linkedin"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                Linkedin{" "}
-              </a>
-            </li>
-            <li>
-              <FaMailBulk></FaMailBulk> inaiakenia15@gmail.com
-            </li>
-          </ul>
         </section>
+        <div className="contact"></div>
+        <ul>
+          {" "}
+          Contact
+          <li>
+            {" "}
+            <FaSave></FaSave>
+            <a
+              href="https://docs.google.com/document/d/1yOadZ6xjOhjUliVfG67TEzYHTqOhzdbc/edit#heading=h.gjdgxs"
+              className="resume"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
+          </li>
+          <li>
+            {" "}
+            <FaGithub></FaGithub>
+            <a
+              href="https://github.com/InaiaK"
+              className="github"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              GitHub{" "}
+            </a>
+          </li>
+          <li>
+            <FaLinkedin></FaLinkedin>
+            <a
+              href="https://www.linkedin.com/in/inaia-martin/"
+              className="linkedin"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Linkedin{" "}
+            </a>
+          </li>
+          <li>
+            <FaMailBulk></FaMailBulk> inaiakenia15@gmail.com
+          </li>
+        </ul>
       </div>
     </>
   );
