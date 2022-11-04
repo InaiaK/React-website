@@ -89,7 +89,7 @@ const About = () => {
   const renderAbout = ({ img, altText, title, description }, index) => {
     return (
       <Card key={`about-card-${index}`} className="about-box">
-        <Card.Img src={img} alt={altText} />
+        <Card.Img className="about-img" src={img} alt={altText} />
         <Card.Body className="card-body">
           {title}
           <Card.Text className="about-text">{description}</Card.Text>
