@@ -22,7 +22,7 @@ const About = () => {
       img: SKILL,
       altText: "animation image representing skills",
       description: (
-        <ul>
+        <ul className="hide">
           <li>HTML5</li>
           <li>CSS</li>
           <li>Bootstrap</li>
@@ -78,7 +78,7 @@ const About = () => {
         <p className="hide">
           <FaSave></FaSave>
           <a
-            href="file:///C:/Users/Owner/Downloads/Inaia%20Martin%20(m).docx%20(2).pdf"
+            href="https://drive.google.com/file/d/1LhkbCpvVfNl6QlyBv85pk1q_oZ3mW99g/view?usp=share_link"
             className="resume"
             target="_blank"
             rel="noreferrer"
