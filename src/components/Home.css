@@ -12,6 +12,7 @@
   color: pink;
   display: flex;
   justify-content: center;
+  text-shadow: 0 2px 9px rgb(231, 170, 216);
 }
 
 .home-subtitle {
