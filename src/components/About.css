@@ -1,22 +1,44 @@
-.about-body {
+.about-text {
   color: pink;
-  align-items: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 15px;
 }
-h1 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+.hide {
+  list-style: none;
+  color: pink;
+  font-size: 18px;
 }
-p {
-  margin: 1rem;
-  background-color: black;
-}
-
-.img-about-me {
-  border-radius: 10rem;
-  width: 25rem;
-  margin-left: 50rem;
-}
-
-.img-qrcode {
-  width: 15rem;
+.about-box {
+  padding: 1.5rem;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 5px 35px rgb(252, 252, 252);
 }
 
+.about-img {
+  width: 100%;
+  height: 50%;
+  padding: 0%;
+  display: flex;
+}
+
+.about-img:hover {
+  opacity: 50%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 3500px) {
+  .grid {
+    padding: 15%;
+  }
+}
