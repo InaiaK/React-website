@@ -9,7 +9,6 @@ import SKILL from "../assets/images/skillimg.jpg";
 import QR_CODE from "../assets/images/qrcode.svg";
 
 // Functional component.
-
 const About = () => {
   const aboutData = [
     {

@@ -5,14 +5,15 @@
 }
 
 .home-title {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-size: 5rem;
   margin: 0%;
   padding-top: 16%;
   color: pink;
   display: flex;
   justify-content: center;
-  text-shadow: 0 2px 9px rgb(231, 170, 216);
+  text-shadow: 0 2px 9px rgb(236, 135, 211);
 }
 
 .home-subtitle {
