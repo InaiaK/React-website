@@ -15,12 +15,12 @@ import Video from "./assets/video/background2.mp4";
 function App() {
   return (
     <>
-  <video className="video" src={Video} autoPlay loop muted />
+      <video className="video" src={Video} autoPlay loop muted />
       <div>
         <Router>
           <TopNavBar />
+          <Home />
           <Routes>
-            <Route path="home" element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="portfolio" element={<Portfolio />} />
           </Routes>
