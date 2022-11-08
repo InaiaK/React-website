@@ -11,7 +11,7 @@ import { FaCode } from "react-icons/fa";
 function TopNavBar() {
   return (
     <Navbar className="navbar" expand="lg">
-      <LinkContainer to="/home">
+      <LinkContainer to="home">
         <Navbar.Brand className="brand"> <FaCode></FaCode> Inaia Martin</Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

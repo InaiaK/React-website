@@ -19,8 +19,8 @@ function App() {
       <div>
         <Router>
           <TopNavBar />
-          <Home />
           <Routes>
+            <Route path="home" element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="portfolio" element={<Portfolio />} />
           </Routes>
