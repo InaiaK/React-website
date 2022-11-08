@@ -11,7 +11,7 @@ Using components below:
 
 
 # App (walkthrough)
-
+<img src="https://github.com/InaiaK/React-website/blob/main/src/assets/Untitled_%20Nov%207%2C%202022%206_02%20PM%20(1).gif">
 
 # Deploy Link
 
