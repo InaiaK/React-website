@@ -8,10 +8,14 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 
+// Assets
+import Video from "./assets/video/background2.mp4";
+
 // Routes working.
 function App() {
   return (
     <>
+      <video className="video" src={Video} autoPlay loop muted />
       <div>
         <Router>
           <TopNavBar />
