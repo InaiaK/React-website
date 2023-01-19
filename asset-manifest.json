@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/React.js-Portfolio/static/css/main.0e326d33.css",
-    "main.js": "/React.js-Portfolio/static/js/main.3b23137b.js",
-    "static/media/realfakeeb.gif": "/React.js-Portfolio/static/media/realfakeeb.91ef138c8c4d2ecf6af3.gif",
+    "main.js": "/React.js-Portfolio/static/js/main.84600f73.js",
     "static/media/password.gif": "/React.js-Portfolio/static/media/password.71bc997ef26e69969596.gif",
-    "static/media/note.gif": "/React.js-Portfolio/static/media/note.44f17e62d8d83cf22756.gif",
+    "static/media/work.gif": "/React.js-Portfolio/static/media/work.ae131b6b5d4dd9283e7a.gif",
     "static/media/coming.gif": "/React.js-Portfolio/static/media/coming.93797b95a75b4c728cd2.gif",
     "static/media/background2.mp4": "/React.js-Portfolio/static/media/background2.f15b581fb08cea475c2e.mp4",
     "static/media/inaia.jpeg": "/React.js-Portfolio/static/media/inaia.f8bde26836c6db13bcef.jpeg",
+    "static/media/social1.png": "/React.js-Portfolio/static/media/social1.8f68cd4804a9c459f21d.png",
     "static/media/skillimg.jpg": "/React.js-Portfolio/static/media/skillimg.0a554bfc1d254ba9ecb3.jpg",
     "static/media/contact.webp": "/React.js-Portfolio/static/media/contact.4e042a6b6f99ff99be96.webp",
     "static/media/qrcode.svg": "/React.js-Portfolio/static/media/qrcode.01ecf3975c04977df888c2ad1717901e.svg",
     "index.html": "/React.js-Portfolio/index.html",
     "main.0e326d33.css.map": "/React.js-Portfolio/static/css/main.0e326d33.css.map",
-    "main.3b23137b.js.map": "/React.js-Portfolio/static/js/main.3b23137b.js.map"
+    "main.84600f73.js.map": "/React.js-Portfolio/static/js/main.84600f73.js.map"
   },
   "entrypoints": [
     "static/css/main.0e326d33.css",
-    "static/js/main.3b23137b.js"
+    "static/js/main.84600f73.js"
   ]
 }
