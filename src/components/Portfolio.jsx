@@ -3,28 +3,28 @@ import { Card, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Portfolio.css";
 // Assets
-import REAL from "../assets/images/realfakeeb.gif";
-import NOTE from "../assets/images/note.gif";
+import WORK from "../assets/images/work.gif";
+import SOCIAL from "../assets/images/social1.png";
 import PASSWORD from "../assets/images/password.gif";
 import COMING from "../assets/images/coming.gif";
 
 const Portfolio = () => {
   const cardData = [
     {
-      img: REAL,
-      altText: "An animation showing use of the Real Fake Store app",
-      title: "Real Fake Store",
-      deployed: "https://real-fake-store.herokuapp.com/",
+      img: WORK,
+      altText: "An animation showing use of the work plan app",
+      title: "Work Planner",
+      deployed: "https://inaiak.github.io/Work-planner/",
       description:
-        "A place for intergalactic travelers to find the products they need to keep sane on their long journeys through space.Whether they want something unique or something real fake, the real fake store has it all. Our application is web responsive, easily visible on a mobile device or from your spaceship’s console.",
+        " A simple calendar application that allows a user to save events for each hour of the day. Included JQuery Moment.js.",
     },
     {
-      img: NOTE,
-      altText: "An animation showing use of the Note app",
-      title: "Note Taker",
-      deployed: "https://tranquil-dawn-45157.herokuapp.com/",
+      img: SOCIAL,
+      altText: "An image showing many icons from social media app",
+      title: "Social Network ",
+      deployed: "https://github.com/InaiaK/NoSQL-Social-Network",
       description:
-        "Handy Note Taker live deployed on Heroku which will allow the user to write and store notes!",
+        "API for a social network web application where users can share their thoughts, react to friends’ thoughts.",
     },
 
     {
